@@ -1,0 +1,20 @@
+.parent{
+    text-align: center;            
+    filter: blur(5px);
+    z-index: -1;
+}
+.child{
+    border: 2px groove lightcoral;
+    border-radius: 10px;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 2px lightcoral;
+    z-index: +1;
+    font-size: 40px;
+    color: red;
+    position: relative;
+    bottom: 250px;
+    left: 600px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,64 @@
+.top{
+    display: flex;
+    justify-content: space-between;    
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.taskList{
+    font-size: 60px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.addButton{
+    font-size: 40px;
+    font-weight: lighter;
+    color: gray;   
+}
+
+.plus{
+    font-size: 50px;
+    color: red;
+}
+
+.tripPlan{
+    box-sizing: border-box;
+    border: 3px groove rgb(182, 88, 88);
+    width: 300px;
+    height : 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    margin: 20px;
+}
+
+
+.tripHead{
+    font-size: 40px;
+    color: lightcoral;
+    text-shadow: 1px 1px 1px lightcoral;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.completedTask{
+    color: red;
+    font-size: 28px;
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pendingTask{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
