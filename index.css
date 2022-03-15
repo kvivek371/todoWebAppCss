@@ -67,7 +67,7 @@ hr{
     margin-top: 60px;
 }
 
-@media all and (min-width : 500px) and (max-width : 900px) {
+@media all and (min-width : 300px) and (max-width : 900px) {
     
     hr{
         display: none;
