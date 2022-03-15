@@ -18,3 +18,186 @@
     left: 600px;
     box-sizing: border-box;
 }
+
+
+/* 
+
+*/
+hr{
+    width: 250px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;    
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.taskList{
+    font-size: 60px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.addButton{
+    font-size: 40px;
+    font-weight: lighter;
+    color: gray;   
+}
+
+.plus{
+    font-size: 50px;
+    color: red;
+}
+
+.tripPlan{
+    box-sizing: border-box;
+    border: 3px groove rgb(182, 88, 88);
+    width: 300px;
+    height : 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    margin: 20px;
+}
+
+
+.tripHead{
+    font-size: 40px;
+    color: lightcoral;
+    text-shadow: 1px 1px 1px lightcoral;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.completedTask{
+    color: red;
+    font-size: 28px;
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pendingTask{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+@media all and (min-width : 500px) and (max-width : 900px){
+    
+
+    .parent{
+        text-align: center;            
+        filter: blur(5px);
+        z-index: -1;
+        width: 50%;
+    }
+    .child{
+        border: 2px groove lightcoral;
+        border-radius: 10px;
+        width: 16rem;
+        height: 11rem;
+        text-align: center;
+        box-shadow: 2px 2px 2px lightcoral;
+        z-index: +1;
+        font-size: 1.5rem;
+        color: red;
+        position: absolute;
+        top: 18vh;
+        left: 5vw;
+        box-sizing: border-box;
+    }
+    
+}
+
+/* 
+
+*/
+
+@media all and (min-width : 500px) and (max-width : 900px) {
+    
+    hr{
+        display: none;
+    }
+
+    body{
+        width: 50%;
+    }
+
+    .main{
+        width: 50vw;
+        /* position: relative;
+        left: 20%; */
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;    
+        box-sizing: border-box;  
+        margin: 0;
+    }
+
+    .addlistText{
+        display: none;
+    }
+    
+    .bottom{
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        border-collapse: collapse;        
+    }
+    
+    .taskList{
+        font-size: 3rem;
+        font-weight: lighter;
+        color: gray;
+    }
+    
+    .addButton{
+        font-size: 2rem;
+        font-weight: lighter;
+        color: gray;   
+    }
+    
+    .plus{
+        font-size: 4rem;
+        color: red;
+    }
+    
+    .tripPlan{
+        box-sizing: border-box;
+        border: 3px groove rgb(182, 88, 88);
+        width: 20rem;
+        height : 6rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px gray;
+    }
+    
+    
+    .tripHead{
+        font-size: 2rem;
+        color: lightcoral;
+        text-shadow: 1px 1px 1px lightcoral;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    
+    .completedTask{
+        display: none;
+    }
+    
+    .pendingTask{
+        display: none;
+    }   
+}
