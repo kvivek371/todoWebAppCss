@@ -19,10 +19,6 @@
     box-sizing: border-box;
 }
 
-
-/* 
-
-*/
 hr{
     width: 250px;
 }
@@ -92,7 +88,7 @@ hr{
     margin-top: 60px;
 }
 
-@media all and (min-width : 500px) and (max-width : 900px){
+@media all and (min-width : 300px) and (max-width : 900px){
     
 
     .parent{
@@ -119,11 +115,7 @@ hr{
     
 }
 
-/* 
-
-*/
-
-@media all and (min-width : 500px) and (max-width : 900px) {
+@media all and (min-width : 300px) and (max-width : 900px) {
     
     hr{
         display: none;
@@ -135,8 +127,8 @@ hr{
 
     .main{
         width: 50vw;
-        /* position: relative;
-        left: 20%; */
+        position: relative;
+        left: 20%;
     }
 
     .top{
