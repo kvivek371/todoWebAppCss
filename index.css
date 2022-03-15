@@ -1,3 +1,7 @@
+hr{
+    width: 250px;
+}
+
 .top{
     display: flex;
     justify-content: space-between;    
@@ -61,4 +65,81 @@
     font-size: 25px;
     text-align: center;
     margin-top: 60px;
+}
+
+@media all and (min-width : 500px) and (max-width : 900px) {
+    
+    hr{
+        display: none;
+    }
+
+    .main{
+        border: 10px solid red;
+        width: 50vw;
+        position: relative;
+        top: 20vh;
+        left: 20vw;
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;    
+        box-sizing: border-box;  
+        margin: 0;
+    }
+
+    .addlistText{
+        display: none;
+    }
+    
+    .bottom{
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        border-collapse: collapse;        
+    }
+    
+    .taskList{
+        font-size: 3rem;
+        font-weight: lighter;
+        color: gray;
+    }
+    
+    .addButton{
+        font-size: 2rem;
+        font-weight: lighter;
+        color: gray;   
+    }
+    
+    .plus{
+        font-size: 4rem;
+        color: red;
+    }
+    
+    .tripPlan{
+        box-sizing: border-box;
+        border: 3px groove rgb(182, 88, 88);
+        width: 20rem;
+        height : 100px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px gray;
+    }
+    
+    
+    .tripHead{
+        font-size: 40px;
+        color: lightcoral;
+        text-shadow: 1px 1px 1px lightcoral;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    
+    .completedTask{
+        display: none;
+    }
+    
+    .pendingTask{
+        display: none;
+    }   
 }
